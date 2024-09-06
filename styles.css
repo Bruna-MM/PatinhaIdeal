@@ -11,7 +11,7 @@ body {
     height: 100vh; /* Preenche a altura total da viewport */
     margin: 0; /* Remove a margem padrão */
     padding: 0; /* Remove o padding padrão */
-        background-image:url(/Imagens/patas.png);
+        background-image:url(patas.png);
         background-repeat: no-repeat; /* Impede a repetição da imagem */
         background-size: cover; /* Faz a imagem cobrir toda a área */
         background-position: center; /* Centraliza a imagem */

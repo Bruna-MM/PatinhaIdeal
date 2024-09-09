@@ -46,7 +46,13 @@ let dados= [
         descricao: "<p>Descrição: Roedor sociável e curioso, popular como animal de estimação. Pelagem macia e densa, em diversas cores e padrões. São animais diurnos e muito ativos. <p>Características: Necessitam de uma gaiola espaçosa com esconderijos, objetos para roer e uma dieta rica em feno, verduras e legumes. A expectativa de vida é de 5 a 7 anos. <p>Cuidados: Exigem limpeza regular da gaiola, alimentação balanceada e monitoramento da saúde. Problemas comuns incluem problemas dentários e infecções respiratórias. <p>Temperamento: Geralmente dócil e curioso, mas pode morder se se sentir ameaçado. <p>Vida útil: Em média 5-7 anos, mas podem viver até 8 anos. <p>Indicado para: Famílias com crianças e pessoas que buscam um pet sociável e interativo, mas que necessite de espaço moderado.",
         link: "https://www.petlove.com.br/dicas/como-cuidar-bem-de-um-porquinho-da-india/amp?gad_source=1&gclid=CjwKCAjwreW2BhBhEiwAavLwfJcrHNTY9t7KFGboq3avqLLVTib4Rdx5sgy3kAVgnQaYVPsfnPxCGxoCWd4QAvD_BwE"
     },
-    
+    {
+        titulo: "Coelho Doméstico",
+        descricao: "<p>Descrição: Mamífero herbívoro de pequeno porte, conhecido por suas orelhas longas, pelagem macia e comportamento dócil. Popular como animal de estimação.</p> <p>Características: Possuem uma grande variedade de cores e raças, com pelagem que pode ser curta ou longa. São animais sociáveis, curiosos e ativos.</p> <p>Cuidados: Necessitam de um espaço adequado para se movimentarem, enriquecimento ambiental, alimentação rica em feno, vegetais frescos e água limpa. É importante ter cuidado com a saúde dentária e a higiene do ambiente.</p> <p>Temperamento: São animais gentis e podem criar laços fortes com seus donos. Gostam de atenção, mas podem ser tímidos ou assustados em ambientes ruidosos.</p> <p>Vida útil: Em média 8 a 12 anos, dependendo da raça e cuidados oferecidos.</p>",
+        link: "https://www.petz.com.br/blog/cuidados-com-coelhos/"
+    }
+    ,
+
 
 //cachorros
 
@@ -105,7 +111,46 @@ let dados= [
     descricao: "<p>Descrição: Raça de cão de caça com corpo alongado e pernas curtas, originária da Alemanha. Conhecida por sua personalidade forte e lealdade.</p><p>Características: Três variedades de tamanho (padrão, miniatura e coelho), pelagem curta, longa ou dura. Orelhas grandes e caídas, focinho alongado e olhos expressivos.</p><p>Temperamento: Independentes, teimosos e com um alto instinto de caça. São leais aos seus donos e podem ser protetores.</p><p>Cuidados: Necessitam de cuidados com a coluna devido à sua conformação física. A obesidade é um problema comum, por isso a alimentação deve ser controlada. A socialização desde cedo é fundamental. <p>Expectativa de vida: Em média 12-16 anos. <p>Doenças frequentes: Problemas de coluna e obesidade. <p>Indicado para: Pessoas que buscam um cão pequeno, leal e que se adapta bem a apartamentos.",
     link: "https://www.cbkc.org.br/racas/dachshund/"
 },
-
+{
+    titulo: "Akita",
+    descricao: "<p>Descrição: Raça de porte grande, originária do Japão. Conhecidos por sua lealdade e bravura. Têm uma pelagem espessa que os protege do frio.</p> <p>Características: São cães fortes, com uma presença imponente e uma pelagem densa. Podem ter uma variedade de cores, incluindo branco, preto, marrom e vermelho.</p> <p>Temperamento: Leal, corajoso e reservado com estranhos.</p> <p>Expectativa de vida: Em média 10-15 anos.</p> <p>Cuidados: Necessitam de exercícios regulares e cuidados com a pelagem.</p> <p>Doenças frequentes: Displasia coxofemoral e problemas oculares.</p> <p>Indicado para: Famílias com espaço e que podem fornecer treinamento e socialização adequados.</p>",
+    link: "https://www.cbkc.org/racas/akita/"
+},
+{
+    titulo: "Cocker Spaniel",
+    descricao: "<p>Descrição: Raça de porte médio, originária da Inglaterra. Conhecidos por suas orelhas longas e pelagem abundante. São cães amigáveis e dedicados.</p> <p>Características: Pelagem longa e sedosa, com cores variadas. Têm um temperamento afetuoso e uma grande necessidade de companhia humana.</p> <p>Temperamento: Amigável, leal e alegre.</p> <p>Expectativa de vida: Em média 12-15 anos.</p> <p>Cuidados: Necessitam de escovação regular e cuidado com as orelhas.</p> <p>Doenças frequentes: Problemas oculares e de pele.</p> <p>Indicado para: Famílias e pessoas que desejam um cão companheiro e ativo.</p>",
+    link: "https://www.cbkc.org.br/racas/cocker-spaniel/"
+},
+{
+    titulo: "Dálmata (Dalmata)",
+    descricao: "<p>Descrição: Raça de porte médio, originária da Croácia. Conhecidos por suas manchas pretas ou fígado em sua pelagem branca. São cães enérgicos e independentes.</p> <p>Características: Pelagem curta com manchas distintas. São conhecidos por sua energia e inteligência.</p> <p>Temperamento: Enérgico, inteligente e independente.</p> <p>Expectativa de vida: Em média 10-13 anos.</p> <p>Cuidados: Necessitam de exercícios diários e cuidados com a pelagem.</p> <p>Doenças frequentes: Problemas urinários e surdez.</p> <p>Indicado para: Pessoas ativas que podem fornecer a quantidade adequada de exercício e estímulo mental.</p>",
+    link: "https://www.cbkc.org/racas/dalmatian/"
+},
+{
+    titulo: "Golden Retriever",
+    descricao: "<p>Descrição: Raça de porte grande, originária da Escócia. Conhecidos por sua pelagem dourada e personalidade amigável. São cães populares e leais.</p> <p>Características: Pelagem longa e ondulada, com cores variando do dourado claro ao dourado escuro.</p> <p>Temperamento: Amigável, inteligente e confiável.</p> <p>Expectativa de vida: Em média 10-12 anos.</p> <p>Cuidados: Requerem exercícios regulares e escovação frequente.</p> <p>Doenças frequentes: Displasia coxofemoral e problemas cardíacos.</p> <p>Indicado para: Famílias ativas e pessoas que buscam um cão leal e afetuoso.</p>",
+    link: "https://www.cbkc.org/racas/golden-retriever/"
+},
+{
+    titulo: "Pug",
+    descricao: "<p>Descrição: Raça de pequeno porte, originária da China. Conhecidos por suas características faciais únicas, como o focinho achatado e os olhos grandes. São cães de companhia com uma personalidade marcante.</p> <p>Características: Pelagem curta e lisa, com cores como preto, prata e dourado. Têm uma aparência compacta e musculosa.</p> <p>Temperamento: Amigável, carinhoso e teimoso.</p> <p>Expectativa de vida: Em média 12-15 anos.</p> <p>Cuidados: Necessitam de cuidados especiais com a pele e a respiração.</p> <p>Doenças frequentes: Problemas respiratórios e oculares.</p> <p>Indicado para: Pessoas que desejam um cão pequeno, afetuoso e adaptável a ambientes internos.</p>",
+    link: "https://www.cbkc.org/racas/pug/"
+},
+{
+    titulo: "Rottweiler",
+    descricao: "<p>Descrição: Raça de porte grande, originária da Alemanha. Conhecidos por sua força e habilidades de guarda. São cães leais e protetores.</p> <p>Características: Pelagem curta e preta com marcas em cor ferrugem. Têm uma construção musculosa e uma presença imponente.</p> <p>Temperamento: Leal, corajoso e protetor.</p> <p>Expectativa de vida: Em média 8-10 anos.</p> <p>Cuidados: Necessitam de treinamento e socialização adequados, além de exercícios regulares.</p> <p>Doenças frequentes: Displasia coxofemoral e problemas cardíacos.</p> <p>Indicado para: Pessoas com experiência em treinamento de cães e que buscam um cão de guarda e companhia.</p>",
+    link: "https://www.cbkc.org/racas/rottweiler/"
+},
+{
+    titulo: "Weimaraner",
+    descricao: "<p>Descrição: Raça de porte grande, originária da Alemanha. Conhecidos por sua pelagem cinza-prata e habilidades de caça. São cães enérgicos e inteligentes.</p> <p>Características: Pelagem curta e de cor cinza-prata, com um corpo atlético e elegante.</p> <p>Temperamento: Energético, inteligente e amigável.</p> <p>Expectativa de vida: Em média 10-12 anos.</p> <p>Cuidados: Requerem exercícios diários intensos e estimulação mental.</p> <p>Doenças frequentes: Displasia coxofemoral e problemas de pele.</p> <p>Indicado para: Pessoas ativas e que podem dedicar tempo para treinamento e atividades físicas.</p>",
+    link: "https://www.cbkc.org/racas/weimaraner/"
+},
+{
+    titulo: "Yorkshire Terrier",
+    descricao: "<p>Descrição: Raça de pequeno porte, originária da Inglaterra. Conhecidos por sua pelagem longa e sedosa. São cães enérgicos e corajosos.</p> <p>Características: Pelagem longa e de cor azul e dourado, com um tamanho pequeno e uma presença marcante.</p> <p>Temperamento: Enérgico, corajoso e leal.</p> <p>Expectativa de vida: Em média 12-15 anos.</p> <p>Cuidados: Necessitam de escovação diária e cuidados com a pelagem.</p> <p>Doenças frequentes: Problemas dentários e oculares.</p> <p>Indicado para: Pessoas que desejam um cão pequeno e ativo, ideal para apartamentos.</p>",
+    link: "https://www.cbkc.org/racas/yorkshire-terrier/"
+},
 //fazenda
 {
     titulo: "Ovelha Merino",
@@ -261,11 +306,7 @@ let dados= [
 },
 
 //passáros
-{
-    titulo: "Calopsita",
-    descricao: "<p>Descrição: Psitacídeo de pequeno porte, originário da Austrália. Conhecidos por sua plumagem colorida e capacidade de imitar sons. <p>Características: São aves sociáveis, inteligentes e brincalhonas. Necessitam de brinquedos para se distraírem. <p>Temperamento: Afetivo e dócil, mas podem ser teimosos. <p>Vida útil: Em média 15-20 anos.",
-    link: "https://www.passarosbrasil.com.br/calopsita/"
-},
+
 {
     titulo: "Calopsita",
     descricao: "<p>Descrição: Psitacídeo de pequeno porte, originário da Austrália. Conhecida por sua plumagem colorida e capacidade de imitar sons.</p> <p>Características: São aves sociáveis, inteligentes e brincalhonas. Necessitam de brinquedos para se distrair e interações diárias com seus donos.</p> <p>Cuidados: Requerem uma gaiola espaçosa, brinquedos, poleiros e uma dieta variada com sementes, frutas e verduras.</p> <p>Temperamento: Afetiva, dócil, mas pode ser teimosa. Cria laços fortes com os donos.</p> <p>Vida útil: Em média 15 a 20 anos.</p>",
@@ -296,5 +337,105 @@ let dados= [
     descricao: "<p>Descrição: Pequena ave encontrada em áreas urbanas e rurais, conhecida por sua capacidade de adaptação a diferentes ambientes.</p> <p>Características: Plumagem marrom e cinza, com padrões simples. São aves resistentes e adaptáveis.</p> <p>Cuidados: Não são comuns como animais de estimação, mas se criados em cativeiro necessitam de espaço e uma alimentação equilibrada.</p> <p>Temperamento: Independente e curioso, gosta de viver em bandos.</p> <p>Vida útil: Em média 3 a 5 anos na natureza, podendo viver mais tempo em cativeiro.</p>",
     link: "https://www.petz.com.br/blog/especies/aves/"
 }
+,
+//répteis
+
+{
+    titulo: "Iguana Verde",
+    descricao: "<p>Descrição: A iguana verde é um lagarto de grande porte, conhecido por sua aparência impressionante e cor verde vibrante. Originária da América Central e do Sul, é uma das espécies de lagartos mais populares como animais de estimação.</p> <p>Características: Corpo robusto com pele verde, espinhos ao longo da coluna e uma cauda longa. Pode atingir até 2 metros de comprimento.</p> <p>Temperamento: Solitária por natureza, mas pode se acostumar com a presença humana se manejada corretamente.</p> <p>Expectativa de vida: Em média 15-20 anos.</p> <p>Cuidados: Requer um habitat espaçoso com iluminação UVB, uma dieta rica em vegetais e frutas, e um ambiente de alta umidade.</p> <p>Doenças frequentes: Problemas digestivos e metabólicos, como a doença óssea metabólica.</p> <p>Indicado para: Pessoas com experiência em cuidados de répteis e que podem fornecer um ambiente adequado e uma dieta balanceada.</p>",
+    link: "https://www.reptilesmagazine.com/iguana-care/"
+},
+
+{
+    titulo: "Gecko-Leopard",
+    descricao: "<p>Descrição: O gecko-leopard é um lagarto pequeno e popular entre os entusiastas de répteis devido à sua aparência exótica e comportamento relativamente fácil de cuidar. Originário do Paquistão e da Índia, é conhecido por suas manchas distintivas e cauda gordurosa.</p> <p>Características: Pele amarela com manchas pretas, corpo pequeno e cauda espessa. Tamanho adulto varia de 20 a 25 cm.</p> <p>Temperamento: Geralmente dócil e pode ser manipulado, embora alguns indivíduos possam ser mais reservados.</p> <p>Expectativa de vida: Em média 15-20 anos.</p> <p>Cuidados: Requer um terrário com aquecimento adequado, substrato apropriado e uma dieta composta por insetos e suplementos vitamínicos.</p> <p>Doenças frequentes: Infecções parasitárias e problemas de metabolismo.</p> <p>Indicado para: Iniciantes e pessoas que buscam um lagarto fácil de cuidar e que pode ser mantido em um espaço relativamente pequeno.</p>",
+    link: "https://www.geckos.com/leopard-gecko-care/"
+}
+,
+{
+    
+        titulo: "Dragão Barbudo (Pogona vitticeps)",
+        descricao: "<p>Descrição: O Dragão Barbudo, ou Pogona vitticeps, é um lagarto nativo da Austrália, conhecido por sua aparência robusta e comportamento curioso. É um dos lagartos exóticos mais populares como pet devido à sua aparência impressionante e à facilidade de manejo.</p> <p>Características: Possui um corpo robusto com uma 'barba' de espinhos que pode se expandir quando se sente ameaçado. A coloração varia de tons de marrom e bege. Pode atingir cerca de 40-60 cm de comprimento.</p> <p>Temperamento: Geralmente dócil e sociável, especialmente quando acostumado ao manuseio desde cedo.</p> <p>Expectativa de vida: Em média 10-15 anos.</p> <p>Cuidados: Requer um terrário espaçoso com áreas para se aquecer e se esconder. A dieta inclui insetos, vegetais e frutas. É importante fornecer luz UVB e monitorar a temperatura e a umidade.</p> <p>Doenças frequentes: Problemas de digestão e doenças relacionadas à falta de luz UVB e desequilíbrios nutricionais.</p> <p>Indicado para: Criadores experientes ou iniciantes dispostos a fornecer os cuidados adequados e um habitat apropriado.</p> <p>Importante: A posse de Dragão Barbudo é regulamentada e pode exigir a permissão do IBAMA. Verifique as regulamentações locais e nacionais para garantir que você está em conformidade com a legislação sobre a posse de animais exóticos.</p>",
+        "link": "https://www.reptilescare.com/dragao-barbudo/"
+    
+    
+},
+
+
+{
+    titulo: "Lagarto Leopardino",
+    descricao: "<p>Descrição: O lagarto leopardino é conhecido por sua pele manchada e sua natureza tranquila. Originário das regiões áridas da Ásia Central, é uma escolha popular para quem está começando no cuidado de répteis.</p> <p>Características: Pele de cor amarela ou laranja com manchas escuras, corpo pequeno e cauda espessa que armazena gordura.</p> <p>Temperamento: Geralmente calmo e fácil de manejar. Pode ser um bom companheiro para quem gosta de répteis.</p> <p>Expectativa de vida: Em média 10-15 anos.</p> <p>Cuidados: Requer um habitat seco com aquecimento adequado, substrato arenoso e uma dieta que inclui insetos e suplementos vitamínicos.</p> <p>Doenças frequentes: Infecções parasitárias e problemas metabólicos.</p> <p>Indicado para: Iniciantes e entusiastas de répteis que procuram um lagarto pequeno e de fácil manejo.</p>",
+    link: "https://www.lizardcare.com/leopard-gecko/"
+},
+{
+    titulo: "Jiboia (Boa constrictor)",
+    descricao: "<p>Descrição: A jiboia é uma das cobras constritoras mais conhecidas e populares entre os entusiastas de répteis. Originária da América Central e do Sul, é conhecida por sua força e tamanho impressionantes.</p> <p>Características: Corpo robusto e musculoso, com escamas que variam em cores e padrões. Pode atingir até 3-4 metros de comprimento.</p> <p>Temperamento: Geralmente tranquila e não agressiva, mas pode se tornar defensiva se se sentir ameaçada.</p> <p>Expectativa de vida: Em média 20-30 anos.</p> <p>Cuidados: Requer um terrário espaçoso com aquecimento e umidade adequados, além de uma dieta baseada em roedores. É importante oferecer um espaço seguro e adequado para que a cobra possa se esconder e se sentir segura.</p> <p>Doenças frequentes: Infecções respiratórias e problemas de pele.</p> <p>Indicado para: Pessoas com experiência em cuidados de répteis e que possam fornecer um habitat apropriado e alimentação adequada.</p>",
+    link: "https://www.reptilesmagazine.com/boa-constrictor-care/"
+},
+{
+    titulo: "Jararaca (Bothrops asper)",
+    descricao: "<p>Descrição: A jararaca é uma cobra venenosa encontrada principalmente na América Central e do Sul. É conhecida por seu veneno potente e seu padrão de cores camuflado.</p> <p>Características: Corpo robusto com padrões de cores que ajudam na camuflagem. Pode atingir até 1,5-2 metros de comprimento.</p> <p>Temperamento: Geralmente evita contato com humanos e tende a ser reclusa. A mordida é perigosa e deve ser tratada imediatamente.</p> <p>Expectativa de vida: Em média 10-15 anos.</p> <p>Cuidados: Requer um terrário com aquecimento e umidade adequados, e deve ser manuseada com extremo cuidado. É essencial garantir que o terrário seja seguro e que a cobra tenha acesso a esconderijos.</p> <p>Doenças frequentes: Infecções e parasitas.</p> <p>Indicado para: Criadores experientes que conhecem os riscos e cuidados associados a cobras venenosas.</p>",
+    link: "https://www.snakesforpets.com/bothrops-asper-care/"
+},
+{
+    titulo: "Corn Snake (Elaphe guttata)",
+    descricao: "<p>Descrição: A corn snake é uma das cobras de estimação mais populares devido à sua natureza amigável e ao seu padrão de cores vibrantes. Originária dos Estados Unidos, é uma excelente escolha para iniciantes.</p> <p>Características: Corpo esguio e longo com um padrão de cores variado, incluindo laranja, vermelho e preto. Pode atingir até 1,5-2 metros de comprimento.</p> <p>Temperamento: Geralmente dócil e fácil de manusear, o que a torna ideal para iniciantes.</p> <p>Expectativa de vida: Em média 15-20 anos.</p> <p>Cuidados: Requer um terrário com aquecimento adequado e um substrato apropriado. A dieta consiste principalmente em roedores. Necessita de um ambiente com esconderijos para se sentir segura.</p> <p>Doenças frequentes: Infecções respiratórias e problemas digestivos.</p> <p>Indicado para: Iniciantes e pessoas que desejam uma cobra amigável e de fácil manejo.</p>",
+    link: "https://www.cornsnakecare.com/"
+},
+{
+    titulo: "Python Bivittatus (Python bivittatus)",
+    descricao: "<p>Descrição: Também conhecido como o piton de barriga amarela, o Python bivittatus é um grande constritor nativo do Sudeste Asiático. É conhecido por seu tamanho impressionante e padrão de cores distintas.</p> <p>Características: Corpo robusto e pesado com padrão de cores que inclui tons de amarelo e marrom. Pode crescer até 4-5 metros de comprimento.</p> <p>Temperamento: Pode ser mais reservado e menos interativo do que outras cobras, mas geralmente não é agressiva.</p> <p>Expectativa de vida: Em média 20-30 anos.</p> <p>Cuidados: Requer um terrário muito espaçoso, aquecimento adequado e alta umidade. A dieta é baseada em grandes roedores e deve ser administrada com cuidado.</p> <p>Doenças frequentes: Infecções respiratórias e problemas relacionados ao tamanho do habitat.</p> <p>Indicado para: Criadores experientes que podem oferecer um ambiente adequado para um lagarto de grande porte.</p>",
+    link: "https://www.pythonscare.com/python-bivittatus/"
+},
+
+//animais exóticos
+{ titulo: "Animais Silvestres ",
+  descricao: " <p>São regulados pelo Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis (IBAMA) e sua posse é geralmente proibida sem licença específica. Exemplos incluem macacos, onças e algumas aves nativas.</p>"},
+
+  { titulo: "Animais Exóticos ",
+    descricao:" <p>A posse de algumas espécies pode ser permitida, mas é necessário verificar a regulamentação específica do IBAMA e das autoridades locais. Exemplos de animais exóticos permitidos, com autorização, incluem algumas espécies de répteis e mamíferos.</p>"
+},
+    {
+        "titulo": "Macaco-Prego (Sapajus apella)",
+        "descricao": "<p>Descrição: O Macaco-Prego é um primata nativo da América do Sul, conhecido por sua inteligência e comportamento curioso. É uma das espécies de macacos mais populares no comércio de animais de estimação.</p> <p>Características: Possui uma pelagem que varia de marrom claro a escuro, com um rosto expressivo e mãos habilidosas. Pode medir até 45 cm de comprimento, sem contar a cauda.</p> <p>Temperamento: Inteligente e ativo, pode ser bastante social, mas também exigente e difícil de cuidar. Requer bastante estímulo mental e social.</p> <p>Expectativa de vida: Em média 15-25 anos.</p> <p>Cuidados: Necessita de um ambiente grande e enriquecido, dieta variada e cuidados veterinários regulares. É importante oferecer interação social e estímulo adequado.</p> <p>Doenças frequentes: Problemas de comportamento e saúde relacionados ao estresse e à falta de socialização.</p> <p>Indicado para: Criadores experientes e pessoas com amplo conhecimento sobre primatas. É essencial obter a permissão do IBAMA para a posse legal.</p> <p>Importante: A posse de primatas é regulamentada e requer a permissão do IBAMA. Certifique-se de estar em conformidade com as leis e regulamentações vigentes.</p>",
+        "link": "https://www.primatescare.com/macaco-prego/"
+    },
+    {
+        "titulo": "Falcão-peregrino (Falco peregrinus)",
+        "descricao": "<p>Descrição: O Falcão-peregrino é uma ave de rapina nativa de várias regiões do mundo, conhecida por sua velocidade impressionante e habilidades de caça. É um dos pássaros de rapina mais icônicos e procurados no comércio de aves exóticas.</p> <p>Características: Possui plumagem que varia de cinza a marrom, com uma característica máscara facial escura. Pode atingir até 50 cm de comprimento.</p> <p>Temperamento: Selvagem e independente, requer cuidados especializados e espaço adequado para voar. É uma ave de rapina que precisa de uma dieta rica e uma gestão adequada de seu bem-estar.</p> <p>Expectativa de vida: Em média 12-20 anos.</p> <p>Cuidados: Requer um grande voo, dieta específica de carne e suplementação, além de cuidados veterinários especializados.</p> <p>Doenças frequentes: Problemas relacionados à dieta e manejo inadequado, como doenças do trato digestivo e respiratório.</p> <p>Indicado para: Criadores experientes com conhecimento em aves de rapina. É essencial obter a permissão do IBAMA para a posse legal.</p> <p>Importante: A posse de aves de rapina exige a permissão do IBAMA. Certifique-se de cumprir todas as regulamentações e obter a documentação necessária.</p>",
+        "link": "https://www.raptorscare.com/falcao-peregrino/"
+    },
+    {
+        "titulo": "Javali (Sus scrofa)",
+        "descricao": "<p>Descrição: O Javali é um animal selvagem nativo da Europa, Ásia e partes da África, que pode ser encontrado em algumas regiões do Brasil como animal exótico. Conhecido por seu corpo robusto e comportamento agressivo.</p> <p>Características: Possui pelagem espessa e escura, com um corpo musculoso e pernas fortes. Pode medir até 1,5 metros de comprimento.</p> <p>Temperamento: Pode ser agressivo e territorial, requer manejo cuidadoso e um ambiente adequado para evitar comportamentos problemáticos.</p> <p>Expectativa de vida: Em média 10-15 anos.</p> <p>Cuidados: Necessita de um grande espaço ao ar livre, dieta balanceada e cuidados veterinários regulares. É importante garantir que o ambiente seja seguro e apropriado.</p> <p>Doenças frequentes: Problemas relacionados ao estresse e à falta de espaço, além de doenças parasitárias.</p> <p>Indicado para: Criadores com experiência em manejo de animais selvagens e espaço adequado. É essencial obter a permissão do IBAMA para a posse legal.</p> <p>Importante: A posse de javalis exige a permissão do IBAMA. Certifique-se de estar em conformidade com as leis e regulamentações sobre a posse de animais exóticos.</p>",
+        "link": "https://www.wildlife-care.com/javali/"
+    },
+    {
+        "titulo": "Tartaruga de Pente (Eretmochelys imbricata)",
+        "descricao": "<p>Descrição: A Tartaruga de Pente é uma tartaruga marinha ameaçada de extinção, conhecida por sua concha colorida e padrões distintos. É um animal exótico protegido por leis internacionais.</p> <p>Características: Possui uma concha coberta por placas sobrepostas com cores que variam de marrom a verde. Pode atingir até 1 metro de comprimento.</p> <p>Temperamento: Geralmente calma, mas precisa de um ambiente adequado para prosperar. É uma espécie que requer cuidados especializados e manejo responsável.</p> <p>Expectativa de vida: Em média 30-50 anos.</p> <p>Cuidados: Necessita de um habitat marinho apropriado, dieta rica em crustáceos e cuidados veterinários especializados. É importante manter a qualidade da água e o ambiente aquático.</p> <p>Doenças frequentes: Problemas relacionados à qualidade da água e dieta inadequada.</p> <p>Indicado para: Criadores com experiência em cuidados de tartarugas marinhas e ambiente adequado. A posse de tartarugas marinhas é regulamentada e exige permissão do IBAMA.</p> <p>Importante: A posse de tartarugas marinhas é altamente regulamentada e exige a permissão do IBAMA. Verifique todas as exigências legais antes de adquirir.</p>",
+        "link": "https://www.seaturtle.org/tartaruga-de-pente/"
+    },
+        {
+            "titulo": "Axolote (Ambystoma mexicanum)",
+            "descricao": "<p>Descrição: O Axolote é um tipo de salamandra endêmica do México, conhecido por sua capacidade de regeneração e aparência única. É frequentemente mantido como animal de estimação devido à sua aparência interessante e comportamento peculiar.</p> <p>Características: Possui um corpo alongado, com brânquias externas e uma coloração que varia de rosa a preto. Pode atingir até 30 cm de comprimento.</p> <p>Temperamento: Calmo e de movimentos lentos. É um animal aquático que prefere um ambiente tranquilo e estável.</p> <p>Expectativa de vida: Em média 10-15 anos.</p> <p>Cuidados: Necessita de um aquário com água limpa e fria, além de uma dieta baseada em alimentos vivos, como vermes. A água deve ser mantida em condições ideais para evitar doenças.</p> <p>Doenças frequentes: Infecções fúngicas e bacterianas relacionadas à qualidade da água.</p> <p>Indicado para: Amantes de animais exóticos com experiência em cuidados aquáticos. É essencial obter a permissão do IBAMA para a posse legal.</p> <p>Importante: A posse de axolotes requer a permissão do IBAMA. Certifique-se de cumprir todas as regulamentações e obter a documentação necessária.</p>",
+            "link": "https://www.axolotlcaring.com/"
+        },
+        {
+            "titulo": "Dragão Barbudo (Pogona vitticeps)",
+            "descricao": "<p>Descrição: O Dragão Barbudo é um lagarto nativo da Austrália, conhecido por seu comportamento dócil e aparência imponente. É um dos lagartos mais populares no comércio de animais de estimação.</p> <p>Características: Possui uma 'barba' espinhosa ao redor do pescoço e uma coloração que varia de bege a marrom. Pode medir até 60 cm de comprimento.</p> <p>Temperamento: Geralmente calmo e sociável, mas pode se tornar defensivo se se sentir ameaçado. É uma espécie que se adapta bem ao manejo em cativeiro.</p> <p>Expectativa de vida: Em média 10-15 anos.</p> <p>Cuidados: Requer um terrário com iluminação UVB, aquecimento adequado e uma dieta variada, incluindo vegetais e insetos. A limpeza regular do habitat é essencial.</p> <p>Doenças frequentes: Problemas de metabolismo ósseo e infecções parasitárias.</p> <p>Indicado para: Amantes de répteis com experiência em cuidados e manejo de lagartos. É necessário verificar as regulamentações locais e obter a permissão do IBAMA, se aplicável.</p> <p>Importante: A posse de dragões barbudos pode exigir permissão do IBAMA em algumas regiões. Verifique a legislação local para garantir que você esteja em conformidade.</p>",
+            "link": "https://www.beardeddragoncare.com/"
+        },
+        {
+            "titulo": "Paca (Cuniculus paca)",
+            "descricao": "<p>Descrição: A Paca é um roedor nativo da América Central e do Sul, conhecido por seu tamanho grande e pelagem manchada. É um animal exótico que pode ser mantido como pet em algumas regiões.</p> <p>Características: Tem um corpo robusto, com pelagem marrom e manchas brancas. Pode atingir até 85 cm de comprimento.</p> <p>Temperamento: Geralmente reservado e noturno, pode se tornar mais sociável com o tempo. Requer um ambiente grande e enriquecido.</p> <p>Expectativa de vida: Em média 10-15 anos.</p> <p>Cuidados: Necessita de um grande espaço ao ar livre ou um grande recinto fechado, dieta baseada em frutas, vegetais e folhas, além de cuidados veterinários regulares.</p> <p>Doenças frequentes: Problemas dentários e parasitas.</p> <p>Indicado para: Criadores com experiência em cuidados de roedores exóticos. A posse de pacas pode exigir permissão do IBAMA, dependendo da legislação local.</p> <p>Importante: A posse de pacas é regulamentada e pode exigir permissão do IBAMA. Certifique-se de estar em conformidade com todas as regulamentações.</p>",
+            "link": "https://www.pacacare.com/"
+        },
+        {
+            "titulo": "Macaquinho-de-cheiro (Saguinus spp.)",
+            "descricao": "<p>Descrição: O Macaquinho-de-cheiro, também conhecido como sagui, é um pequeno primata nativo da América do Sul. É conhecido por seu tamanho reduzido e comportamento ativo.</p> <p>Características: Possui pelagem variada, com cores que vão do preto ao marrom. Pode medir até 30 cm de comprimento.</p> <p>Temperamento: Ativo e curioso, pode ser desafiador de cuidar devido ao seu comportamento dinâmico e necessidades sociais.</p> <p>Expectativa de vida: Em média 10-15 anos.</p> <p>Cuidados: Requer um ambiente enriquecido, dieta variada e interação social constante. É importante fornecer brinquedos e atividades para evitar estresse.</p> <p>Doenças frequentes: Problemas comportamentais e de saúde relacionados ao estresse.</p> <p>Indicado para: Criadores experientes com conhecimento em primatas. A posse de macacos deve ser regulamentada e pode exigir permissão do IBAMA.</p> <p>Importante: A posse de primatas é regulamentada e exige a permissão do IBAMA. Verifique a legislação local e obtenha a documentação necessária.</p>",
+            "link": "https://www.sagui-care.com/"
+        },
+    
+    
 
 ];
